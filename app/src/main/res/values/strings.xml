@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="rue">True</string>
+    <string name="alse">False</string>
+    <string name="next_question">Next Question</string>
+    <string name="question">word</string>
+</resources>
