@@ -4,4 +4,13 @@
     <string name="alse">False</string>
     <string name="next_question">Next Question</string>
     <string name="question">word</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="question1">The first person convicted of speeding was going 9 mph</string>
+    <string name="question2">The total weight of ants on earth once equaled the total weight of people</string>
+    <string name="question3">Chinese police officers use police geese, along with police dogs</string>
+    <string name="question4">Napoleon was once Attacked by 5,000 rabbits</string>
+    <string name="question5">The fire hydrant patent was lost in a fire</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
