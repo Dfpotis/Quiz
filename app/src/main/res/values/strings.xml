@@ -11,6 +11,6 @@
     <string name="question3">Chinese police officers use police geese, along with police dogs</string>
     <string name="question4">Napoleon was once Attacked by 5,000 rabbits</string>
     <string name="question5">The fire hydrant patent was lost in a fire</string>
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

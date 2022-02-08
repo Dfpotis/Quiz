@@ -21,7 +21,6 @@ class MainFragment : Fragment() {
         Question(R.string.question2, true),
         Question(R.string.question3, true),
         Question(R.string.question4, false),
-
         Question(R.string.question5, true)
     )
     override fun onSaveInstanceState(savedInstanceState:Bundle) {
