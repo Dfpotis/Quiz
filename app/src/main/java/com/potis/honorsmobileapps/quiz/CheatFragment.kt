@@ -20,6 +20,11 @@ private val binding get()= _binding!!
 
         _binding= FragmentCheatBinding.inflate(inflater, container, false)
         val rootView = binding.root
+        val args=CheatFragmentArgs.fromBundle(requireArguments())
+        binding.button.setOnClickListener{
+            binding.te.text=(args.answer.toString()).uppercase()
+
+        }
         return rootView
     }
         override fun onDestroy(){

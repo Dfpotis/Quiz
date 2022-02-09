@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.potis.honorsmobileapps.quiz.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_wonFragment"
+            app:destination="@id/wonFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_cheatFragment"
+            app:destination="@id/cheatFragment" />
+        <argument
+            android:name="bool"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/cheatFragment"
+        android:name="com.potis.honorsmobileapps.quiz.CheatFragment"
+        android:label="fragment_cheat"
+        tools:layout="@layout/fragment_cheat" >
+        <argument android:name="answer"
+            app:argType="boolean" />
+    </fragment>
+    <fragment
+        android:id="@+id/wonFragment"
+        android:name="com.potis.honorsmobileapps.quiz.WonFragment"
+        android:label="fragment_won"
+        tools:layout="@layout/fragment_won" >
+        <argument
+            android:name="wrong"
+            app:argType="integer" />
+    </fragment>
+</navigation>

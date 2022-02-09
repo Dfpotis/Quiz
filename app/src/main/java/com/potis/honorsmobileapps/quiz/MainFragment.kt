@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.findNavController
 import com.potis.honorsmobileapps.quiz.databinding.FragmentMainBinding
 
 
@@ -41,6 +42,10 @@ class MainFragment : Fragment() {
         binding.t.setOnClickListener{check(true)}
         binding.f.setOnClickListener{check(false)}
         binding.next.setOnClickListener{next()}
+        binding.cheat.setOnClickListener{
+            val action=MainFragmentDirections.actionMainFragmentToCheatFragment(list[inc].awn)
+            rootView.findNavController().navigate(action)}
+
         return rootView
    }
     fun next(){
